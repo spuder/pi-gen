@@ -1,0 +1,10 @@
+[Unit]
+Description=Delta5 Server
+After=multi-user.target
+
+[Service]
+WorkingDirectory=/opt/delta5/src/delta5server
+ExecStart=/usr/bin/python server.py
+
+[Install]
+WantedBy=multi-user.target
