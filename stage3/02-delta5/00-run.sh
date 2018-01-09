@@ -1,6 +1,6 @@
 #!/bin/bash -e
 
-
+## Add delta5 user
 on_chroot << EOF
 groupadd -f -r -g 1001 delta5
 useradd -u 1001 -g 1001 -rm delta5
