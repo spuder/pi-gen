@@ -5,3 +5,4 @@ python-rpi.gpio
 python-smbus
 i2c-tools
 nginx
+libnss-mdns # Provides .local dns resolution

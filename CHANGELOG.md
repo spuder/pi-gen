@@ -1,3 +1,8 @@
+2018-01-13
+- Change hostname to 'delta5'
+- Enable delta5.local dns entry to make easy to discover https://www.raspberrypi.org/forums/viewtopic.php?t=18207
+- Remove 'lite' from image name
+
 2018-01-09
 - Change Wifi & keyboard maps to US
 - Move delta5 to its own build step
