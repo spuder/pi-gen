@@ -10,6 +10,7 @@ Or if you want to build your own image.
 
 1. Install [Docker](https://www.docker.com/)
 1. Install [cynwin](https://www.cygwin.com/) or [bash for windows](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
+1. start an apt cache to speed up builds `docker-compose up -d` then check the config file, if no apt cache specified run `echo 'APT_PROXY=http://172.17.0.1:3142' >> config`
 1. run `./build-docker.sh` in a terminal
 1. Wait 30 minutes, a new .img file will appear in your local directory
 
