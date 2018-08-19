@@ -9,3 +9,4 @@ SKIP_IMAGES
 apt-cacher-ng/
 .vagrant/
 ubuntu*.log
+.DS_Store
