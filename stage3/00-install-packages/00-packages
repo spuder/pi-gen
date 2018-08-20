@@ -7,3 +7,4 @@ i2c-tools
 nginx
 libnss-mdns # Provides .local dns resolution
 libffi-dev
+vim
